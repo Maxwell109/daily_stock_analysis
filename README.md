@@ -16,6 +16,13 @@
 
 </div>
 
+## 💖 赞助商 (Sponsors)
+<div align="center">
+  <a href="https://serpapi.com/baidu-search-api?utm_source=github_daily_stock_analysis" target="_blank">
+    <img src="./sources/serpapi_banner_zh.png" alt="轻松抓取搜索引擎上的实时金融新闻数据 - SerpApi" height="160">
+  </a>
+</div>
+<br>
 
 
 ## ✨ 功能特性
@@ -30,7 +37,7 @@
 - **🔄 多模型支持** - 支持 OpenAI 兼容 API（DeepSeek、通义千问等）作为备选
 
 ### 📊 数据来源
-- **行情数据**: AkShare（免费）、Tushare、Baostock、YFinance
+- **行情数据**: AkShare（免费）、Tushare、Pytdx（通达信）、Baostock、YFinance
 - **新闻搜索**: Tavily、SerpAPI、Bocha
 - **AI 分析**: 
   - 主力：Google Gemini（gemini-3-flash-preview）—— [免费获取](https://aistudio.google.com/)
@@ -96,8 +103,9 @@
 | `STOCK_LIST` | 自选股代码，如 `600519,hk00700,AAPL,TSLA` | ✅ |
 | `TAVILY_API_KEYS` | [Tavily](https://tavily.com/) 搜索 API（新闻搜索） | 推荐 |
 | `BOCHA_API_KEYS` | [博查搜索](https://open.bocha.cn/) Web Search API（中文搜索优化，支持AI摘要，多个key用逗号分隔） | 可选 |
-| `SERPAPI_API_KEYS` | [SerpAPI](https://serpapi.com/) 备用搜索 | 可选 |
+| `SERPAPI_API_KEYS` | [SerpAPI](https://serpapi.com/baidu-search-api?utm_source=github_daily_stock_analysis) 备用搜索 | 可选 |
 | `TUSHARE_TOKEN` | [Tushare Pro](https://tushare.pro/) Token | 可选 |
+| `WECHAT_MSG_TYPE` | 企微消息类型，默认 markdown，支持配置 text 类型，发送纯 markdown 文本 | 可选 |
 
 #### 3. 启用 Actions
 
@@ -235,6 +243,7 @@ daily_stock_analysis/
 ### 📊 数据源扩展
 - [x] AkShare（免费）
 - [x] Tushare Pro
+- [x] Pytdx（通达信）
 - [x] Baostock
 - [x] YFinance
 
@@ -247,6 +256,15 @@ daily_stock_analysis/
 - [x] Web 管理界面 (简易版)
 - [x] 美股支持
 - [ ] 历史分析回测
+
+
+## ☕ 支持项目
+如果本项目对你有帮助，欢迎支持项目的持续维护与迭代，感谢支持 🙏  
+赞赏可备注联系方式，祝股市长虹
+
+| 支付宝 (Alipay) | 微信支付 (WeChat) | Ko-fi |
+| :---: | :---: | :---: |
+| <img src="./sources/alipay.jpg" width="200" alt="Alipay"> | <img src="./sources/wechatpay.jpg" width="200" alt="WeChat Pay"> | <a href="https://ko-fi.com/mumu157" target="_blank"><img src="./sources/ko-fi.png" width="200" alt="Ko-fi"></a> |
 
 ## 🤝 贡献
 
@@ -265,6 +283,7 @@ daily_stock_analysis/
 - GitHub Issues：[提交 Issue](https://github.com/ZhuLinsen/daily_stock_analysis/issues)
 
 ## ⭐ Star History
+**如果觉得有用，请给个 ⭐ Star 支持一下！**
 
 <a href="https://star-history.com/#ZhuLinsen/daily_stock_analysis&Date">
  <picture>
@@ -279,17 +298,3 @@ daily_stock_analysis/
 本项目仅供学习和研究使用，不构成任何投资建议。股市有风险，投资需谨慎。作者不对使用本项目产生的任何损失负责。
 
 ---
-
-**如果觉得有用，请给个 ⭐ Star 支持一下！**
-
-<!-- 赞赏锚点 -->
-<a id="sponsor"></a>
-###### ☕ 请我喝杯咖啡
-- 如果觉得本项目对你有帮助且行有余力，可以请我喝杯咖啡，支持项目的持续维护与迭代；不赞赏也完全不影响使用。   
-<small>（赞赏时可备注联系方式，方便私信致谢与后续交流反馈）</small>
-- 感谢支持, 祝您股市长虹，拿主力当提款机。
-
-<div align="center">
-  <img src="./sources/wechatpay.jpg" alt="WeChat Pay" width="200" style="margin-right: 20px;">
-  <img src="./sources/alipay.jpg" alt="Alipay" width="200">
-</div>

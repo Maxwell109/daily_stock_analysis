@@ -16,6 +16,15 @@
 
 </div>
 
+## 💖 贊助商 (Sponsors)
+
+<div align="center">
+  <a href="https://serpapi.com/baidu-search-api?utm_source=github_daily_stock_analysis" target="_blank">
+    <img src="../sources/serpapi_banner_zh.png" alt="輕鬆抓取搜尋引擎上的即時金融新聞數據 - SerpApi" height="160">
+  </a>
+</div>
+<br>
+
 ## ✨ 功能特性
 
 ### 🎯 核心功能
@@ -94,7 +103,7 @@
 | `STOCK_LIST` | 自選股代碼，如 `600519,hk00700,AAPL,TSLA` | ✅ |
 | `TAVILY_API_KEYS` | [Tavily](https://tavily.com/) 搜索 API（新聞搜索） | 推薦 |
 | `BOCHA_API_KEYS` | [博查搜索](https://open.bocha.cn/) Web Search API（中文搜索優化，支持AI摘要，多個key用逗號分隔） | 可選 |
-| `SERPAPI_API_KEYS` | [SerpAPI](https://serpapi.com/) 備用搜索 | 可選 |
+| `SERPAPI_API_KEYS` | [SerpAPI](https://serpapi.com/baidu-search-api?utm_source=github_daily_stock_analysis) 備用搜索 | 可選 |
 | `TUSHARE_TOKEN` | [Tushare Pro](https://tushare.pro/) Token | 可選 |
 
 #### 3. 啟用 Actions
@@ -246,6 +255,18 @@ daily_stock_analysis/
 - [x] 美股支持
 - [ ] 歷史分析回測
 
+## ☕ 支持項目
+
+<div align="center">
+  <a href="https://ko-fi.com/mumu157" target="_blank">
+    <img src="https://storage.ko-fi.com/cdn/kofi3.png?v=3" alt="Buy Me a Coffee at ko-fi.com" style="height: 40px !important;">
+  </a>
+</div>
+
+| 支付寶 (Alipay) | 微信支付 (WeChat) | Ko-fi |
+| :---: | :---: | :---: |
+| <img src="../sources/alipay.jpg" width="200" alt="Alipay"> | <img src="../sources/wechatpay.jpg" width="200" alt="WeChat Pay"> | <a href="https://ko-fi.com/mumu157" target="_blank"><img src="../sources/ko-fi.png" width="200" alt="Ko-fi"></a> |
+
 ## 🤝 貢獻
 
 歡迎提交 Issue 和 Pull Request！
@@ -263,6 +284,7 @@ daily_stock_analysis/
 - GitHub Issues：[提交 Issue](https://github.com/ZhuLinsen/daily_stock_analysis/issues)
 
 ## ⭐ Star History
+**如果覺得有用，請給個 ⭐ Star 支持一下！**
 
 <a href="https://star-history.com/#ZhuLinsen/daily_stock_analysis&Date">
  <picture>
@@ -278,16 +300,3 @@ daily_stock_analysis/
 
 ---
 
-**如果覺得有用，請給個 ⭐ Star 支持一下！**
-
-<!-- 贊賞錨點 -->
-<a id="sponsor"></a>
-###### ☕ 請我喝杯咖啡
-- 如果覺得本項目對你有幫助且行有餘力，可以請我喝杯咖啡，支持項目的持續維護與迭代；不贊賞也完全不影響使用。   
-<small>（贊賞時可備註聯繫方式，方便私信致謝與後續交流反饋）</small>
-- 感謝支持, 祝您股市長虹，拿主力當提款機。
-
-<div align="center">
-  <img src="../sources/wechatpay.jpg" alt="WeChat Pay" width="200" style="margin-right: 20px;">
-  <img src="../sources/alipay.jpg" alt="Alipay" width="200">
-</div>
